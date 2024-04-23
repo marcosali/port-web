@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 import { Link, Events, scrollSpy } from 'react-scroll';
+import Foto from '../assets/marco.png'
+
 
 function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
@@ -34,6 +36,9 @@ function Navbar() {
 
     return (
         <nav className="navbar">
+            <div className="logo">
+                <a href="/"><img src={Foto} alt="Logo" /></a>
+            </div>
             <button
                 className={`menu-btn ${showMenu ? 'active' : ''}`}
                 onClick={toggleMenu}
@@ -41,6 +46,7 @@ function Navbar() {
             >
                 <FontAwesomeIcon icon={faBars} />
             </button>
+
             <ul className={`nav-menu ${showMenu ? 'show' : ''}`}>
                 <li>
                     <Link
