@@ -2,7 +2,7 @@
 .redes-container {
     padding: 20px;
     margin-top: 5px;
-    text-align: center; /* Centra los íconos horizontalmente */
+    text-align: center; 
 }
 
 .redes-container a,
@@ -13,7 +13,7 @@
 .redes-container a {
     font-size: 45px;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .redes-container svg {
