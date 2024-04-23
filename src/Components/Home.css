@@ -34,6 +34,10 @@
     width: 45px;
     height: 45px;
     display: flex;
+    margin-left: -85px;
+    align-items: center;
+    margin-top: 20px;
+
 }
 
 .cl-text {
