@@ -1,0 +1,91 @@
+/* Estilos generales */
+.servicios {
+    padding: 20px;
+    margin-left: 35%;
+}
+
+.title2,
+.contenido p {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.title2 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.contenido p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 480px;
+}
+
+.contenido p span {
+    color: #5c5a5a;
+}
+
+span::after {
+    content: ''; 
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+    width: 80%; 
+    height: 1px; 
+}
+
+p {
+    text-align: center;
+}
+
+/* Media queries para hacerlo responsivo */
+
+@media screen and (max-width: 1024px) {
+    .servicios {
+        margin-left: 25%;
+    }
+
+    .title2 {
+        font-size: 14px;
+    }
+
+    .contenido p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .servicios {
+        margin-left: 10%;
+        padding: 15px;
+    }
+
+    .title2 {
+        font-size: 14px;
+    }
+
+    .contenido p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .servicios {
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .title2 {
+        font-size: 12px;
+    }
+
+    .contenido p {
+        font-size: 12px;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}

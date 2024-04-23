@@ -1,0 +1,159 @@
+/* Estilos generales */
+.title1,
+.texto p,
+.interces,
+.icon,
+.linea {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.title1 h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+}
+
+.acercade {
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+.title1 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.texto p {
+    font-size: 16px;
+    max-width: 480px;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.texto p span {
+    color: #5c5a5a;
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80%;
+    height: 1px;
+}
+
+.interces {
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: border-color 0.3s;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.interces:hover {
+    border-color: #fffd6d;
+}
+
+.icon {
+    width: 40px;
+    height: 50px;
+    fill: #333;
+}
+
+.linea {
+    display: inline-block;
+    border: none;
+    width: 20px;
+    height: 1px;
+    background-color: #333;
+    margin: 5px 10px;
+}
+
+h1 span {
+    color: #fffd6d;
+}
+
+/* Media queries para hacerlo responsivo */
+
+@media screen and (max-width: 1024px) {
+    .acercade {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .acercade {
+        margin-left: 10%;
+        padding: 15px;
+    }
+
+    .title1 {
+        font-size: 14px;
+    }
+
+    .texto p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .interces {
+        margin-right: 30px;
+        margin-bottom: 30px;
+        padding: 8px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .linea {
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .acercade {
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .title1 {
+        font-size: 12px;
+    }
+
+    .texto p {
+        font-size: 12px;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .interces {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 6px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .linea {
+        width: 10px;
+    }
+}

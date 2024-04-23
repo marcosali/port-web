@@ -1,0 +1,128 @@
+/* Estilos base */
+.proyectos {
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.title h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.proyecto, 
+.proyecto img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+}
+
+.proyecto:hover::after {
+    opacity: 1;
+}
+
+.subtitulo p span {
+    color: #5c5a5a;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80%;
+    height: 1px;
+}
+
+.subtitulo p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 480px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Media queries para hacerlo responsivo */
+
+@media only screen and (max-width: 1200px) {
+    .proyectos {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .proyectos {
+        margin-left: 25%;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .subtitulo p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .proyectos {
+        margin-left: 10%;
+    }
+
+    .title h1 {
+        font-size: 25px;
+    }
+
+    .subtitulo p {
+        font-size: 12px;
+    }
+
+    .proyecto, 
+    .proyecto img {
+        width: 200px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .proyectos {
+        margin-left: 5%;
+        padding: 15px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+
+    .subtitulo p {
+        font-size: 13px;
+    }
+
+    .proyecto, 
+    .proyecto img {
+        width: 150px;
+    }
+
+    .logo {
+        width: 25px;
+    }
+}

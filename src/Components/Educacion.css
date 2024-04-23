@@ -1,0 +1,104 @@
+/* Estilos generales */
+.educacion {
+    padding: 20px;
+    margin-left: 35%;
+}
+
+.title3,
+.educacion p,
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.title3 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.educacion p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 480px;
+}
+
+.contenido2 p span {
+    color: #5c5a5a;
+}
+
+
+/* ProgressBar.css */
+.progress-bar {
+    width: 35%;
+    background-color: #5c5a5a;
+    border-radius: 4px;
+}
+
+.progress {
+    background-color: #fffd6d;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (max-width: 1024px) {
+    .educacion {
+        margin-left: 25%;
+    }
+
+    .educacion p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .progress-bar {
+        width: 30%;
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+    .educacion {
+        margin-left: 10%;
+        padding: 15px;
+    }
+
+    .title3 {
+        font-size: 14px;
+    }
+
+    .educacion p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .progress-bar {
+        width: 40%;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .educacion {
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .title3 {
+        font-size: 12px;
+    }
+
+    .educacion p {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .progress-bar {
+        width: 50%;
+    }
+}
