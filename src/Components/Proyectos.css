@@ -12,20 +12,23 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
-.proyecto, 
-.proyecto img {
+.foto1, 
+.foto1 img {
     width: 250px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    position: absolute;
+    margin-left: -1px;
+    
+
 }
 
-.proyecto:hover {
+.foto1:hover {
     transform: scale(1.05);
 }
 
-.proyecto:hover::after {
+.foto1:hover::after {
     opacity: 1;
 }
 
