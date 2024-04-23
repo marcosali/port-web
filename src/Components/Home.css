@@ -28,13 +28,13 @@
     line-height: 1.6;
     margin-top: 20px;
     text-align: left;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
-    width: 38%;
+    width: 41%;
 }
 
 .foto {
@@ -91,14 +91,12 @@
 /* Tablets y dispositivos móviles */
 @media (max-width: 1024px) {
     .home {
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
     .content {
         width: 60%;
     }
-
-
 
     .icon {
         align-items: center;
