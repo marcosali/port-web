@@ -24,7 +24,7 @@ const Contacto = () => {
         <form ref={form} onSubmit={sendEmail}>
             <div className="contacto">
                 <div className="title">
-                    <h1>Contacto</h1>
+                    <h1>Cont<span>acto</span> </h1>
                 </div>
                 <div className="formulario">
                     <ContactForm />
