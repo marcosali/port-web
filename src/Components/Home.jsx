@@ -1,14 +1,11 @@
 import React from 'react'
 import './Home.css';
-import Foto from '../assets/marco.png'
 
 
 const Home = () => {
     return (
         <div id='Home' className="home">
-            <div className="logo">
-                <a href="/"><img src={Foto} alt="Logo" /></a>
-            </div>
+            
 
             <div className="title">
                 <h1>Hey, soy Marco <span className="cl-text">Salinas</span></h1>
@@ -16,7 +13,7 @@ const Home = () => {
             </div>
 
             <div className="text">
-                <p>+1 año de experiencia. <span className="cl-text">Desarrollador Web y creador de paginas web. De Cali, Colombia</span>. Especializado en crear aplicaciones llamativas.</p>
+                <p>+2 años de experiencia. <span className="cl-text">Desarrollador Web y creador de paginas web. De Cali, Colombia</span>. Especializado en crear aplicaciones llamativas.</p>
             </div>
 
             <div className="icon">
