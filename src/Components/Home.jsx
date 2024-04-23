@@ -16,7 +16,7 @@ const Home = () => {
             </div>
 
             <div className="text">
-                <p>+2 años de experiencia. <span className="cl-text">Desarrollador Web y creador de paginas web. De Cali, Colombia</span>. Especializado en crear aplicaciones llamativas.</p>
+                <p>+1 años de experiencia. <span className="cl-text">Desarrollador Web y creador de paginas web. De Cali, Colombia</span>. Especializado en crear aplicaciones llamativas.</p>
             </div>
 
             <div className="icon">
