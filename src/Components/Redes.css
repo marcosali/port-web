@@ -3,7 +3,6 @@
     padding: 20px;
     margin-top: 5px;
     text-align: center; 
-    margin-left: -5px;
 }
 
 .redes-container a,
@@ -14,7 +13,7 @@
 .redes-container a {
     font-size: 45px;
     color: #fff;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 
 .redes-container svg {
