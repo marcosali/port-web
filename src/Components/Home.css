@@ -7,10 +7,33 @@
 }
 
 .title h1 {
-    font-size: 40px;
-    color: #fff;
-    font-family: "Bebas Neue", sans-serif;
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 6s steps(40, end) infinite;}
+
+/* Animación de escritura */
+@keyframes typing {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
 }
+
+/* Efecto de cursor intermitente */
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent; 
+    }
+    50% {
+        border-color: orange; 
+    }
+}
+
+
+
 
 .title a {
     color: #000000;
