@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './Home.css';
-import marcodev from '../assets/devfrom.png'
+import marcodev from '../assets/devfrom.png';
 
 const Home = () => {
+    const [showAnimation, setShowAnimation] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowAnimation(true);
+        }, 1000);
+
+        return () => clearTimeout(timer); 
+    }, []);
+
     return (
         <div id='Home' className="home">
-
             <div className="title">
-                <h1>Hey, soy Marco <span className="cl-text">Salinas</span></h1>
+                <h1 className={showAnimation ? "writing-effect" : ""}>Hey, soy Marco <span className="cl-text">Salinas</span></h1>
                 <a href="https://www.linkedin.com/in/marco-antonio-salinas-solis-9b90bb21a/">Disponible para trabajar.</a>
             </div>
 
