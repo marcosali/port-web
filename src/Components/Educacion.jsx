@@ -40,10 +40,12 @@ const Educacion = () => {
 
                 {/* barra de progreso */}
                 <ProgressBar skill="HTML/CSS" percent={90} /><br />
-                <ProgressBar skill="Tailwind" percent={60} /><br />
+                <ProgressBar skill="TAILWIND" percent={60} /><br />
+                <ProgressBar skill="BOOSTRAP" percent={40} /><br />
                 <ProgressBar skill="JAVASCRIPT" percent={50} /><br />
                 <ProgressBar skill="REACT" percent={60} /><br />
                 <ProgressBar skill="PHP" percent={45} /><br />
+                <ProgressBar skill="LARAVEL" percent={30} /><br />
                 <ProgressBar skill="SQL" percent={30} />
             </div>
         </div>
