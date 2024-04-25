@@ -20,13 +20,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: -webkit-sticky;
     margin-left: -1px;
-    
-
 }
 
-.foto1:hover {
-    transform: scale(1.05);
-}
 
 .foto1:hover::after {
     opacity: 1;
