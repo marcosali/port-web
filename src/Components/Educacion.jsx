@@ -43,7 +43,8 @@ const Educacion = () => {
                 <ProgressBar skill="JAVASCRIPT" percent={50} /><br />
                 <ProgressBar skill="REACT" percent={60} /><br />
                 <ProgressBar skill="PHP" percent={45} /><br />
-                <ProgressBar skill="SQL" percent={30} />
+                <ProgressBar skill="SQL" percent={30} /><br />
+                <ProgressBar skill="Tailwind" percent={50} /><br />
             </div>
         </div>
     );
