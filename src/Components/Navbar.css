@@ -74,7 +74,7 @@
 .nav-menu li a:hover {
     color: #faf605;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #faf605;
 }
 
 @media screen and (max-width: 1024px) {
