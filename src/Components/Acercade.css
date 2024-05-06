@@ -37,7 +37,7 @@ p {
 }
 
 .texto p span {
-    color: #5c5a5a;
+    color: #faf605;
 }
 
 span::after {
@@ -63,7 +63,7 @@ span::after {
 }
 
 .interces:hover {
-    border-color: #fffd6d;
+    border-color: #faf605;
 }
 
 .icon {
@@ -82,7 +82,7 @@ span::after {
 }
 
 h1 span {
-    color: #fffd6d;
+    color: #faf605;
 }
 
 /* Media queries para hacerlo responsivo */
