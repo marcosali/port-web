@@ -4,17 +4,16 @@ import './Educacion.css';
 
 const animateProgressBars = () => {
     const progressBars = document.querySelectorAll('.progress');
-    let totalDelay = 0; // Variable para llevar el retraso acumulado
+    let totalDelay = 0; 
     
     progressBars.forEach((progress) => {
         const percent = progress.getAttribute('data-percent');
         
         setTimeout(() => {
             progress.classList.add('start-animation');
-        }, totalDelay); // Usamos el retraso acumulado como tiempo de espera
+        }, totalDelay); 
         
-        // Aumentamos el retraso acumulado para la siguiente animación
-        totalDelay += percent * 20; // El delay es de 20ms por punto de porcentaje
+        totalDelay += percent * 20; 
     });
 };
 
@@ -36,6 +35,9 @@ const Educacion = () => {
                 <h3>Antonio Jose Camacho</h3>
                 <p>Ingenieria en Sistemas</p>
                 <p><span>2020</span></p>
+                <h3>UDEMY</h3>
+                <p>React desde cero a experto</p>
+                <p className='certicado'><span>certificado</span></p>
                 <p><span>&mdash;&mdash;&mdash; Profecional Skill</span></p>
 
                 {/* barra de progreso */}
@@ -46,7 +48,7 @@ const Educacion = () => {
                 <ProgressBar skill="REACT" percent={60} /><br />
                 <ProgressBar skill="PHP" percent={45} /><br />
                 <ProgressBar skill="LARAVEL" percent={30} /><br />
-                <ProgressBar skill="SQL" percent={30} />
+                <ProgressBar skill="SQL" percent={35} />
             </div>
         </div>
     );
