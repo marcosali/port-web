@@ -28,6 +28,11 @@ h3 {
     color: #5c5a5a;
 }
 
+.certicado span{
+    background: #faf605;
+    border-radius: 5px;
+}
+
 
 /* ProgressBar.css */
 .progress-bar {
@@ -37,7 +42,7 @@ h3 {
 }
 
 .progress {
-    background-color: #fffd6d;
+    background-color: #faf605;
     height: 20px;
     border-radius: 4px;
     text-align: center;
