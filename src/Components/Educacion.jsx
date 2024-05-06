@@ -29,6 +29,9 @@ const Educacion = () => {
             </div>
             <div className="contenido2">
                 <p><span>&mdash;&mdash;&mdash; Educacion</span></p>
+                <h3>Instituto tecnico colombiano intecol</h3>
+                <p>Tecnico en sistemas</p>
+                <p className='certicado'><span>certificado</span></p>
                 <h3>Servicio Nacional de Aprendisaje</h3>
                 <p>Analisis & Desarrollo de Software</p>
                 <p><span>2023 - 2025</span></p>
