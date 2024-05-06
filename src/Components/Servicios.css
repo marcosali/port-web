@@ -21,10 +21,14 @@
     margin-top: 20px;
     text-align: left;
     max-width: 480px;
+    margin-left: -2%;
+
 }
 
 .contenido p span {
     color: #5c5a5a;
+    margin-left: -0%;
+
 }
 
 span::after {
