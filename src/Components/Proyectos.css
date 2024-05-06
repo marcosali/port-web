@@ -12,25 +12,54 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
-.foto1, 
-.foto1 img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: -webkit-sticky;
-    margin-left: -1px;
-}
-
-
-.foto1:hover::after {
-    opacity: 1;
-}
-
 .subtitulo p span {
     color: #5c5a5a;
     font-family: "Bebas Neue", sans-serif;
 }
+
+.card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(251, 255, 0, 0.795);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    width: 200px;
+    height: 250px;
+    background-color: #faf605;
+}
+
+.icons svg {
+    width: 20px; 
+    height: 25px; 
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+h2{
+    margin-left: 20px;
+    margin-bottom: 3px;
+    color: #faf605;
+}
+
+
+h4{
+    margin-left: 20px;
+    margin-top: -4px;
+}
+
+.foto1 img {
+    width: 105%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.contenido {
+    padding: 20px;
+}
+
 
 span::after {
     content: '';
@@ -56,7 +85,6 @@ span::after {
     margin-bottom: 20px;
 }
 
-/* Media queries para hacerlo responsivo */
 
 @media only screen and (max-width: 1200px) {
     .proyectos {
@@ -91,7 +119,7 @@ span::after {
         font-size: 12px;
     }
 
-    .proyecto, 
+    .proyecto,
     .proyecto img {
         width: 200px;
     }
@@ -115,7 +143,7 @@ span::after {
         font-size: 13px;
     }
 
-    .proyecto, 
+    .proyecto,
     .proyecto img {
         width: 150px;
     }
