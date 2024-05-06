@@ -11,12 +11,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #fffd6d; 
+    background-color: #faf605; 
     border-radius: 5px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #fffd6d; 
+    background-color: #faf605; 
 }
 
 ::-webkit-scrollbar-track {
@@ -72,9 +72,9 @@
 }
 
 .nav-menu li a:hover {
-    color: #fffd6d;
+    color: #faf605;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #fffd6d;
+    border-bottom: 3px solid #fff;
 }
 
 @media screen and (max-width: 1024px) {
