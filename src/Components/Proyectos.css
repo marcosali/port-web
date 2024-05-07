@@ -1,9 +1,10 @@
 /* Estilos base */
 .proyectos {
     padding: 20px;
-    margin-left: 35%;
+    margin-left: 28%;
     margin-top: 50px;
     font-family: "Bebas Neue", sans-serif;
+    width: 150px;
 }
 
 .title h1 {
