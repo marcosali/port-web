@@ -1,8 +1,8 @@
 /* Estilos base */
 .home {
     padding: 20px;
-    margin-left: 35%;
-    margin-top: 150px;
+    margin-left: 28%;
+    margin-top: 100px;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -25,6 +25,7 @@
 
 /* Efecto de cursor intermitente */
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent;
@@ -35,13 +36,15 @@
     }
 }
 
+
+
+
 .title a {
     color: #000000;
     text-decoration: none;
     background-color: #a9c2f8;
     border-radius: 5px;
     padding: 2px;
-    text-align: center;
     margin-top: 10px;
 }
 
@@ -51,7 +54,8 @@
     line-height: 1.6;
     margin-top: 20px;
     text-align: left;
-    max-width: 300px;
+    max-width: 600px;
+    
 }
 
 .button {
@@ -74,10 +78,11 @@
     color: rgb(0, 0, 0);
 }
 
+
 .content {
     display: flex;
     justify-content: space-between;
-    width: 41%;
+    width: 60%;
 }
 
 .foto {
@@ -130,6 +135,7 @@
     height: 30px;
 }
 
+
 /* Tablets y dispositivos móviles */
 @media (max-width: 1024px) {
     .home {
@@ -152,12 +158,8 @@
         margin-top: 100px;
     }
 
-    .title h1 {
-        font-size: 24px; /* Reducir el tamaño del título para pantallas pequeñas */
-    }
-
-    .text p {
-        max-width: 100%; /* Asegurar que el texto se ajuste al ancho de la pantalla */
+    .icon {
+        margin-left: 20px;
     }
 
     .content {
@@ -172,7 +174,7 @@
     }
 
     .foto-img {
-        width: 100px; /* Reducir el tamaño de la imagen en pantallas pequeñas */
+        width: 100px;
         height: 100px;
     }
 
@@ -188,6 +190,6 @@
     }
 
     .text p {
-        max-width: 100%; /* Asegurar que el texto se ajuste al ancho de la pantalla */
+        max-width: 100%;
     }
 }
