@@ -1,7 +1,7 @@
 /* Estilos generales */
 .servicios {
     padding: 20px;
-    margin-left: 35%;
+    margin-left: 28%;
 }
 
 .title2,
@@ -20,7 +20,7 @@
     line-height: 1.6;
     margin-top: 20px;
     text-align: left;
-    max-width: 480px;
+    max-width: 600px;
     margin-left: -2%;
 
 }
@@ -28,6 +28,11 @@
 .contenido p span {
     color: #5c5a5a;
     margin-left: -0%;
+
+}
+
+.contenido  .iconos1{
+    margin-left: -3%;
 
 }
 
@@ -42,6 +47,7 @@ span::after {
 
 p {
     text-align: center;
+    
 }
 
 /* Media queries para hacerlo responsivo */
