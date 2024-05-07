@@ -2,6 +2,7 @@
 .educacion {
     padding: 20px;
     margin-left: 35%;
+    max-width: 100%;
 }
 
 .title3,
@@ -21,7 +22,7 @@ h3 {
     line-height: 1.6;
     margin-top: 20px;
     text-align: left;
-    max-width: 480px;
+    max-width: 600px;
 }
 
 .contenido2 p span {
