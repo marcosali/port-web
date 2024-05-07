@@ -1,8 +1,9 @@
 /* Estilos generales */
 .educacion {
     padding: 20px;
-    margin-left: 35%;
+    margin-left: 28%;
     max-width: 100%;
+
 }
 
 .title3,
@@ -32,6 +33,7 @@ h3 {
 .certicado span{
     background: #faf605;
     border-radius: 5px;
+    
 }
 
 
