@@ -38,7 +38,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 200px;
     width: 90%; /* Cambiado a un porcentaje para hacerlo responsivo */
-    max-width: 600px; /* Limitar el ancho máximo */
+    max-width: 650px; /* Limitar el ancho máximo */
     margin: 0 auto;
 }
 
