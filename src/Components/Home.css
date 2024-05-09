@@ -73,6 +73,10 @@
     transition-duration: 0.4s;
 }
 
+.mora{
+    color: #9b079b;
+}
+
 .button:hover {
     background-color: #f8f542;
     color: rgb(0, 0, 0);
