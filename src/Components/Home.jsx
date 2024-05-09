@@ -23,7 +23,7 @@ const Home = () => {
 
             <div className="content">
                 <div className="text">
-                    <p>+2 años de experiencia. <span className="cl-text">Desarrollador Web y creador de páginas web. De Cali, Colombia</span>. Especializado en crear aplicaciones llamativas.</p>
+                    <p>+2 años de experiencia. <span className="cl-text">Desarrollador Web y creador de páginas web. De Cali, Colombia</span>. Especializado en crear <span className="mora">aplicaciones llamativas.</span></p>
                     {/* Agrega el enlace al archivo PDF */}
                     <a href={cvPdf} download className="enlace">
                         <button className="button">
