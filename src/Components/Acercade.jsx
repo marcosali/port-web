@@ -10,7 +10,7 @@ const Acercade = () => {
 
             <div className="texto">
                 <p><span>&mdash;&mdash;&mdash; Datos personales</span></p>
-                <p>Hola, soy Marco Antonio Salinas, un apasionado técnico en sistemas y desarrollador web con más de 2 años de experiencia en el campo de la tecnología. Desde mis primeros días explorando el mundo de la informática, he estado fascinado por cómo la tecnología puede transformar la forma en que vivimos, trabajamos y nos comunicamos. Comencé mi carrera obteniendo una formación sólida en sistemas informáticos, donde adquirí un profundo conocimiento en hardware, software y redes. Mi curiosidad y deseo de aprender me llevaron a especializarme en el desarrollo web, donde descubrí mi verdadera pasión.</p>
+                <p>Hola, soy <spa className="otro">Marco Antonio Salinas</spa>, un apasionado técnico en sistemas y desarrollador web con más de 2 años de experiencia en el campo de la tecnología. Desde mis primeros días explorando el mundo de la informática, he estado fascinado por cómo la tecnología puede transformar la forma en que vivimos, trabajamos y nos comunicamos. Comencé mi carrera obteniendo una formación sólida en sistemas informáticos, donde adquirí un profundo conocimiento en hardware, software y redes. Mi curiosidad y deseo de aprender me llevaron a especializarme en el <spa className="otro">desarrollo web</spa>, donde descubrí mi verdadera pasión.</p>
 
                 {/* INTERECES */}
                 <p><span>&mdash;&mdash;&mdash; Intereses</span></p>
