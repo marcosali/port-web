@@ -2,13 +2,59 @@
 .redes-container {
     padding: 20px;
     margin-top: 5px;
-    text-align: center; 
-    margin-left: 8%;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.flecha {
+    background-color: #9b079b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.footer-content a .bg-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content a .facebook-icon {
+    background-color: #3b5998;
+}
+
+.footer-content a .tiktok-icon {
+    background-color: #000000;
+}
+
+.footer-content a .instagram-icon {
+    background-color: #bc2a8d;
+}
+
+.footer-content a .github-icon {
+    background-color: #24292e;
+}
+
+.footer-content a .arrow-up-icon {
+    background-color: #f6e05e;
 }
 
 /* Estilos para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
     .redes-container {
-        margin-left: 120px; 
+        margin-left: -50px;
     }
 }
