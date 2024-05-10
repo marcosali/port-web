@@ -158,24 +158,26 @@
 /* Móviles */
 @media (max-width: 768px) {
     .home {
-        margin-left: 10%;
-        margin-top: 100px;
+        margin-top: 110px;
+
     }
 
     .icon {
-        margin-left: 20px;
+        margin-left: 1px;
     }
 
     .content {
         flex-direction: column;
         align-items: center;
-        width: 80%;
+
     }
 
     .foto {
-        margin-left: 0;
-        margin-bottom: 20px;
+        margin-left: 310px;
+        margin-bottom: 100px;
+        margin-top: -190px;
     }
+
 
     .foto-img {
         width: 100px;
